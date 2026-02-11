@@ -1,0 +1,18 @@
+# Core data / ML
+numpy>=1.24,<2.0
+pandas>=2.0,<3.0
+scikit-learn>=1.3,<2.0
+
+# UI
+gradio>=4.0,<5.0
+
+# LangChain / LangGraph (agentic AI framework)
+langchain>=0.3.0,<0.4
+langchain-openai>=0.3.0,<0.4
+langgraph>=0.3.0,<0.4
+
+# LLM providers (add langchain-anthropic if using Claude)
+openai>=1.30,<2.0
+
+# Utilities
+pydantic>=2.0,<3.0
